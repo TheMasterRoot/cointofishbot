@@ -25,6 +25,8 @@ python fish.sh
 Very important: Dont start cmd over the screen you must to make all your fishes visible on start.
 The bot will feed your fishes once if they are hungry and it will stop.
 
+Example in video: [VIDEO LINK HERE](https://files.fm/f/sau583jmf)
+
 ### Solving problems
 If you have problems starting fish.py there are 2 types of errors:
 -Missing library
