@@ -9,30 +9,12 @@ def python_to_bash_without_output(cli_args):
     args = shlex.split(cli_args)
     subprocess.Popen(args)
 
-# while True:
-# 	time.sleep(3)
-# 	try:		
-# 		start03 = pyautogui.locateCenterOnScreen('03.jpg', confidence = 0.97)
-# 		print(start03)
-# 		if start03 is not None:
-# 			print("Mission 6")
-# 			pyautogui.moveTo(start03, duration=0.3, tween=pyautogui.easeInOutQuad)
-# 	except:
-# 		continue
-
-
-# try:			
-# 				start = pyautogui.locateCenterOnScreen('01.jpg', confidence = 0.7)
-# 				if start is not None:
-# 					print("Mission", start)
-# 					pyautogui.moveTo(start, duration=0.3, tween=pyautogui.easeInOutQuad)		
-# 					pyautogui.click()
-# 					continue
-# 			except Exception as e:
-# 				pass
-
 
 while True:
+	print("Initializing bot please minimize this screen and mantain your fishes on the screen...")
+	print("You have 10 secconds to start your fish feeding")
+	time.sleep(10)
+	print("Starting...")
 	botoes = list(pyautogui.locateAllOnScreen('botao.jpg',confidence = 0.95))
 
 
@@ -63,8 +45,10 @@ while True:
 				break
 			except:
 				continue
-	time.sleep(300)
-	invent = pyautogui.locateCenterOnScreen('invent.jpg', confidence = 0.90)
-	pyautogui.click()
-	time.sleep(5)
+	print("Feed complete!!!")
+	sys.exit(0)
+	# time.sleep(300)
+	# invent = pyautogui.locateCenterOnScreen('invent.jpg', confidence = 0.90)
+	# pyautogui.click()
+	# time.sleep(5)
 
