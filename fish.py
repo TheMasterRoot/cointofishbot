@@ -57,6 +57,7 @@ for botao in botoes:
 			continue
 
 print("Feed complete!!!")
+print("If you like this project please buy some Eggs with my discount code:  MasterRoot")
 sys.exit(0)
 # time.sleep(300)
 # invent = pyautogui.locateCenterOnScreen('invent.jpg', confidence = 0.90)
