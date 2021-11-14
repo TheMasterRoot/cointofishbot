@@ -2,6 +2,8 @@
 
 This bot is an opensource project to help players feed their fish automatically.
 
+[![Watch the video](https://i.vimeocdn.com/video/1291432242-482104eb59982ec54d4584cd776c5ccf5be2aa78eab678958_236x133)](https://player.vimeo.com/video/642024213)
+
 Please, if you like this project, collaborate with its development by donating any amount in BNB to 0x2E0A2B4764d041aF3510Baa0a2720e6814410642
 
 Or buy some Eggs in game using my discount code: **MasterRoot**
